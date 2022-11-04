@@ -58,4 +58,4 @@ def Anime(url):
         Download(t,cookies,name)
 
 if __name__ == '__main__':
-    Anime("https://anime1.me/category/2017年春季/情色漫畫老師")
+    Anime(input("全集URL: "))
